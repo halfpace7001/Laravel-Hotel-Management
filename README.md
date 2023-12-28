@@ -7,10 +7,15 @@ Its now compatible with laravel 9
 ### Init Commands:
 cd .env.example .env // after that start filling credential at .env
 composer install
+
 npm install 
+
 npm run dev
+
 php artisan migrate:fresh --seed
+
 php artisan serv                => Terminal 1
+
 php artisan websockets:serv     => Terminal 2   //run the websocket server for realtime notification
 
 
